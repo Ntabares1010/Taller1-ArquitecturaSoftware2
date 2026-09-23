@@ -1,7 +1,7 @@
 ```mermaid
 classDiagram
     class Tipo {
-        + int indice
+        + int id
         + string tipo
         + string modoCalculo
         + array festivos
@@ -11,7 +11,7 @@ classDiagram
         + int dia
         + int mes
         + string nombre
-        + int diasDePascua
+        + int diasPascua
     }
 
     Tipo "1" *-- "0..*" Festivo : contiene
